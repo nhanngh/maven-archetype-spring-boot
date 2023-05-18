@@ -24,6 +24,8 @@
     <project.mapstruct.version>1.5.3.Final</project.mapstruct.version>
     <project.lombok.version>1.18.26</project.lombok.version>
     <project.junit.version>4.11</project.junit.version>
+    <project.postgresql.version>42.6.0</project.postgresql.version>
+    <project.liquibase.version>4.20.0</project.liquibase.version>
   </properties>
 
   <dependencies>
@@ -51,6 +53,24 @@
     </dependency>
 
     <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-configuration-processor</artifactId>
+      <optional>true</optional>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>${project.postgresql.version}</version>
+      <scope>runtime</scope>
+    </dependency>
+
+    <dependency>
       <groupId>org.mapstruct</groupId>
       <artifactId>mapstruct</artifactId>
       <version>${project.mapstruct.version}</version>
@@ -61,6 +81,12 @@
       <artifactId>lombok</artifactId>
       <version>${project.lombok.version}</version>
       <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.liquibase</groupId>
+      <artifactId>liquibase-core</artifactId>
+      <version>${project.liquibase.version}</version>
     </dependency>
   </dependencies>
 
