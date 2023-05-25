@@ -5,7 +5,7 @@ package ${package}.controller;
 
 import static ${package}.controller.endpoint.AppEndpoint.HELLO_ENDPOINT;
 
-import ${package}.services.HelloService;
+import ${package}.service.HelloService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
