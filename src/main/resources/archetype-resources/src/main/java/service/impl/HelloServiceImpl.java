@@ -1,10 +1,10 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.services.impl;
+package ${package}.service.impl;
 
 import ${package}.config.AppConfig;
-import ${package}.services.HelloService;
+import ${package}.service.HelloService;
 import java.util.Objects;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
