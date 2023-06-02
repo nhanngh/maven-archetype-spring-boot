@@ -2,9 +2,9 @@
 Create the structure of a Spring Boot project.
 
 ## Prerequisites
-- [Java 17] (https://www.oracle.com/java/technologies/downloads/)
-- [Docker compose] (https://docs.docker.com/compose/install/)
-- [Maven] (https://maven.apache.org/download.cgi)
+- [Java 17](https://www.oracle.com/java/technologies/downloads/)
+- [Docker compose](https://docs.docker.com/compose/install/)
+- [Maven](https://maven.apache.org/download.cgi)
 
 ## Install
 - Checkout the code
